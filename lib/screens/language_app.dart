@@ -39,7 +39,6 @@ class _LanguageAppState extends State<LanguageApp> {
   void initState() {
     super.initState();
     initSpeech();
-    getSupportedLanguages();
     // Update the length of translated text
     translatedTextLength = translatedText.length;
     firstSelectedIndex = 0;
@@ -79,6 +78,7 @@ class _LanguageAppState extends State<LanguageApp> {
     setState(() {
       _wordsSpoken = "${result.recognizedWords}";
       _textEditingController.text = _wordsSpoken;
+      text = _textEditingController.text;
       // Pass the recognized words directly
       getTranslatedText(
           _wordsSpoken,
@@ -611,7 +611,7 @@ class _LanguageAppState extends State<LanguageApp> {
                                                       languageData.languages[
                                                           firstSelectedIndex];
                                                   handleLanguageSelection(
-                                                      selectedLanguage, text);
+                                                      selectedLanguage, _textEditingController.text);
                                                 },
                                               ),
                                               const SizedBox(
