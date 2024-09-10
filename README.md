@@ -4,10 +4,10 @@ Welcome to LinguaQuick , your all-in-one language translator app designed to bri
 
 Key Features:
 
-Instant Translations : Translate text, speech, and even images in real-time.
-Voice Recognition : Speak directly into the app for instant translation of your spoken words.
-Text-to-Speech : Hear translations spoken aloud in your chosen language.
-User-Friendly Interface : Simple and intuitive design for seamless navigation.
+1. Instant Translations : Translate text, speech, and even images in real-time.
+2. Voice Recognition : Speak directly into the app for instant translation of your spoken words.
+3. Text-to-Speech : Hear translations spoken aloud in your chosen language.
+4. User-Friendly Interface : Simple and intuitive design for seamless navigation.
 
 ## Getting Started
 
